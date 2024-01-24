@@ -1,9 +1,5 @@
 import styles from "./index.module.css";
 
-function toggleZoomScreen() {
-  document.body.style.zoom = "80%";
-} 
-
 const AgathisSolution = () => {
   return (
     <div className={styles.agathisSolution}>
